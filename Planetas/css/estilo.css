@@ -1,0 +1,85 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: black;
+	color:purple;
+}
+
+h1, h2, h3{
+
+	color: white;
+	text-shadow: 2px 2px 7px lime;
+}
+
+.Astro{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border: 3px solid purple;
+    background-color: orange;
+  	border-radius: 50%;
+  	box-shadow: 0 0 23px purple;
+
+    
+	 
+}
+
+
+a{
+	color:orange;
+}
+
+.btn{
+	border-radius: 5px;/*arredonda*/
+	text-decoration: none;/*Tira sublinhado*/
+	text-align: center;/*centraliza o TEXTO dentro do quadrado*/
+	color: black;/*cor do texto*/
+	background-color: lightgray;/*cor de fundo*/
+	width:50px;/*Largura*/
+	display:block;/*Centraliza*/
+	margin:0 auto;
+	padding:10px;/*Preenche*/
+	margin-top: 20px;
+
+}
+
+.btn:hover{/*Psdeuoclasse*/
+
+	box-shadow:0 0 5px yellow;
+
+}
+
+/*Estilização do menu superior*/
+
+ul{
+	position: sticky;
+	top:0;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: DodgerBlue;
+
+}
+li{
+	float:left;
+}
+
+/*link dentro da lista*/
+li a{
+	display:block;
+	color: white;
+	font-size: 22px;
+	background-color: DeepBlueSky;
+	padding:14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a hover{
+	background-color: CornFlowerBlue;
+}
