@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang=" 
+pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, Bootstrapworld!</h1>
+
+    <div class="jumbotron text-center">
+      <h1>Manjando bootstrap (Jumbotron)</h1>
+      <p>Redimensionando tela pra ver o que da!</p> 
+    </div>
+
+    <main class="container">
+      <section class="row"><!-- linha -->
+
+      <article class="col">
+        <h2>Coluna 1</h2>
+        <p>Conteúdo coluna</p>
+         <div id="imgY" class="collpse">
+          <a href="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" data-toggle="lightbox">
+        <img src="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+      </a>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#imgY">Fechar/Abrir</button>
+        </article>
+
+      <article class="col">
+        <h2>Coluna 2</h2>
+        <p class="text-danger">Conteúdo coluna</p>
+       <div id="imgX" class="collpse">
+        <a href="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" data-toggle="lightbox">
+        <img src="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+      </a>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#imgX">Fechar/Abrir</button>
+      </article>
+
+
+      <article class="col">
+        <h2>Coluna 3</h2>
+        <p>Conteúdo coluna</p>
+        <div id="imgW" class="collpse">
+      <a href="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" data-toggle="lightbox">
+        <img src="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+      </a>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#imgW">Fechar/Abrir</button>
+      </article>
+    </section>
+    </main>
+
+    <h2>Imagem bootTeste</h2>
+    <img src="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+
+    <h2 data-toggle="collapse" data-target="#imgX">Abre e fecha</h2>
+    <div id="imgX" class="collpse">
+      
+      <img src="https://s2.best-wallpaper.net/wallpaper/2560x1600/1403/Beach-landscape-island-sea-palm-trees-sky-clouds_2560x1600.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+
+    </div>
+
+    <h2>Janela modal</h2>
+    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Open modal
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        TU TEM CERTEZA QUE VAI APAGA?
+         <img src="https://i.pinimg.com/originals/ca/39/9b/ca399b0d4fa3f1cbef66734769e91f35.jpg" class="img-fluid mx-auto d-block img-thumbnail">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      <h2>Exeplo lightbox</h2>
+
+      <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+            </a>
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js">
+    </script>
+
+    <script type="text/javascript">$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });</script>
+  </body>
+</html>
